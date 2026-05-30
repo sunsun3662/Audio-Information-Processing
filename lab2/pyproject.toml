@@ -1,0 +1,13 @@
+[project]
+name = "lab2-ai-poet"
+version = "0.1.0"
+requires-python = ">=3.9"
+dependencies = [
+    "torch",
+    "torchaudio",
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "tqdm",
+    "opencc-python-reimplemented",
+]

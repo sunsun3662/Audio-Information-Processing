@@ -1,0 +1,197 @@
+实验指导⼿册
+实验四：使⽤Facodec实现对语⾳离散化、特征解耦、重构以及⾳⾊转换
+实验⽬标
+本次实验的⽬标是使⽤FACodec模型实现对语⾳的离散化、特征解耦、重构以及⾳⾊转换。通过这⼀
+系列的操作，我们可以实现语⾳特征的独⽴提取，并通过⾳⾊转换技术，使⽤不同说话⼈的⾳⾊重构
+语⾳。
+实验原理
+FACodec是⼀种基于⾃编码器架构的语⾳处理模型，旨在实现语⾳信号的离散化、特征解耦以及重
+构。其核⼼思想是通过将语⾳信号嵌⼊到⼀个离散的潜在空间，并在此空间中进⾏特征提取和操作，
+从⽽实现语⾳的⾼效编码和解码。FACodec模型的结构主要由两个部分组成：F ACodecEncoder（编
+码器）和FACodecDecoder（解码器）。这两部分协同⼯作，完成语⾳的离散化、特征解耦和重构。
+具体原理和细节可以查看NaturalSpeech3。
+1.FACodecEncoder
+FACodec的编码器部分（FACodecEncoder）通过深度神经⽹络将输⼊的连续语⾳信号转化为潜在
+表⽰。这个过程可以看作是将语⾳信号“映射”到⼀个更⼩的、语义更密集的空间中，从⽽提取出语
+⾳的核⼼特征。
+2.FACodecDecoder
+FACodec的解码器（FACodecDecoder）在解码过程中，⾸先会利⽤聚类算法将来⾃于编码器的连
+续语⾳特征转化为离散化特征（其过程⼤致如下：针对连续语⾳特征的每⼀个时间步，查找该时间步
+特征到所有中⼼点的距离，并将其映射到最近的中⼼点。具体地，输⼊的特征形状为 
+torch.Size([1, 256, 762])(([batch_size, dimension, time_length]))，在经
+过聚类后，特征被转化为torch.Size([1, 1, 762])，即每个时间步的特征被压缩成⼀个类标
+签）。
+
+同时，在解码过程中，FACodecDecoder会从潜在表⽰中提取不同类型的语⾳特征，包括： 
+•语调特征（Prosody）：描述语⾳的节奏、韵律、⾳调等信息。
+•内容特征（Content）：与语⾳内容相关的特征，如说话的内容、语⾔的结构等。
+•残差特征（Acoustic Detail）：⼀些额外的细节信息，通常与⾼频成分和细微差别相关。
+•说话⼈特征（Timbre/Speaker）：描述说话⼈的声⾳特征，如⾳⾊等信息。
+最后，FACodecDecoder将这些离散的语⾳特征转换回连续的语⾳信号，完成语⾳的重构。 
+实验步骤
+环境配置
+创建conda环境，在激活的环境中，安装实验所需的依赖包。
+conda create -n facodec python=3.10
+conda activate facodec
+pip3 install torch==2.1.2 torchaudio==2.1.2
+pip install librosa==0.10.1
+pip install pyworld
+pip install einops
+pip install soundfile
+pip install "numpy<2"1
+2
+3
+4
+5
+6
+7
+8
+9
+代码结构
+解压压缩包后进⼊Facodec⽂件夹。
+FACODEC/
+├── ckpt/ # 预训练模型的参数⽂件  
+│   ├──  ns3_facodec_decoder.bin  # FACodec 解码器的预训练模型参数  
+│   └──  ns3_facodec_encoder.bin  # FACodec 编码器的预训练模型参数  
+├── ns3_codec/ # FACodec 的具体实现代码  
+├── samples/ # 存放⾳频⽂件  
+└── test.py # 本次实验的代码  1
+2
+3
+4
+5
+6
+7
+Step1:实例化FACodec编码器和解码器
+实例化FACodec编码器和解码器，并从ckpt中加载预训练模型参数：
+fa_encoder = FACodecEncoder(
+    ......
+)
+fa_decoder = FACodecDecoder(
+    ......
+)
+fa_encoder.load_state_dict(torch.load("./ckpt/ns3_facodec_encoder.bin"))
+fa_decoder.load_state_dict(torch.load("./ckpt/ns3_facodec_decoder.bin"))1
+2
+3
+4
+5
+6
+7
+8
+Step2:加载待处理的⾳频
+使⽤librosa加载待处理的⾳频⽂件。⾳频应为16kHz的采样率，并转换为PyTorch张量格式： 
+def load_audio(wav_path):
+    wav = librosa.load(wav_path, sr=16000)[0]
+    wav = torch.from_numpy(wav).float()
+    wav = wav.unsqueeze(0).unsqueeze(0)
+    return wav
+test_wav_file = "speaker2"
+test_wav = load_audio(f"samples/{test_wav_file}.wav")
+print("Test Audio Shape: ", test_wav.shape)1
+2
+3
+4
+5
+6
+7
+8
+Step3:使⽤FACodec进⾏语⾳的离散化和解耦
+使⽤librosa加载待处理的⾳频⽂件。⾳频应为16kHz的采样率，并转换为PyTorch张量格式： 
+#### Step3: 利⽤ Facodec 对语⾳进⾏离散化和解耦处理。 
+with torch.no_grad():
+    #### Step3.1: 使⽤ fa_encoder 对⾳频进⾏嵌⼊； 
+    encoder_out = fa_encoder(test_wav)
+    print("Encoder_out Shape: ", encoder_out.shape)
+    #### Step3.2: 观察 fa_decoder 对⾳频进⾏离散化解耦的效果； 
+    _, vq_id, _, _, spk_embs = fa_decoder(encoder_out, eval_vq=False, vq=True)
+    prosody_code = vq_id[:1]
+    print("Prosody Code Shape:", prosody_code.shape)
+    cotent_code = vq_id[1:3]
+    print("Cotent Code Shape:", cotent_code.shape)
+    detail_code = vq_id[3:]
+    print("Residual Code Shape:", detail_code.shape) ### tips: 此处 batch_size 被
+调整到了第⼆维度 
+    #### Step3.3: 对⽐（离散化和连续特征）下 fa_decoder 对⾳频进⾏解耦的区别； 
+    _, _, _, _, spk_embs = fa_decoder(encoder_out, eval_vq=False, vq=True)
+    _, _, _, quantized = fa_decoder.quantize(encoder_out)
+    prosody = quantized[0]
+    print("Prosody Embedding Shape:", prosody.shape)
+    content = quantized[1]
+    print("Content Embedding Shape:", content.shape)
+    detail = quantized[2]
+    print("Detail Embedding Shape:", detail.shape)
+    spk_embs = spk_embs
+    print("Speaker Embedding Shape:", spk_embs.shape)
+    #### Step3.4: 组合解耦的各部分特征 , 使⽤ fa_decoder 解码重构⾳频。 
+    all_embs = prosody + content + detail
+    rec_wav = fa_decoder.inference(all_embs, spk_embs)1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+Step4:保存重构后的⾳频
+将重构后的⾳频保存为.wav⽂件，以便后续听觉测试：
+sf.write(f"samples/{test_wav_file}_rec.wav", rec_wav[0][0].cpu().numpy(), 
+16000)
+sf.write(f"samples/{test_wav_file}_rec_with_new_spk.wav", 
+rec_wav_with_new_spk[0][0].cpu().numpy(), 16000)
+print("Successfully Reconstruct!")1
+2
+3
+Step5（需要⾃⾏修改代码）:利⽤Facodec的代码实现⾳⾊转换效果
+为了实现⾳⾊转换，我们需要将不同说话⼈的⾳⾊嵌⼊（spk_embs）进⾏交换，使得同样的语⾳内容
+能以不同说话⼈的⾳⾊重构出来。通过这种⽅式，我们可以很容易完成语⾳领域⼀个很重要的任务⸺
+⾳⾊转换。
+encoder_out_1 = fa_encoder(test_wav_1)
+encoder_out_2 = fa_encoder(test_wav_2)
+#### Step3.2: 分别解耦两个⾳频，获得各⾃所需的特征； 
+_, _, _, _, spk_embs_1 = fa_decoder(encoder_out_1, eval_vq=False, vq=True) 
+### Speaker1
+_, _, _, quantized_2 = fa_decoder.quantize(encoder_out_2) ### Speaker2
+all_embs = prosody_2 + content_2 + detail_2
+rec_wav = fa_decoder.inference(all_embs, spk_embs_1)1
+2
+3
+4
+5
+6
+7
+8
+9
+实验要求
+•完成conda环境配置，成功运⾏代码⾄打印“Successfully Reconstruct!”，完成实验报
+告撰写（实验结果截图+解释语⾳离散化的作⽤原理+解释facodec实验语⾳特征解耦的作⽤原
+理）。（50%分数）
+•使⽤实验⼀的⼯具打印原始⾳频、重构⾳频 的波形图和频谱图对⽐（放⼊实验报告）。（30%
+分数）
+•解释代码中所有print(Shape ： .shape)中张量的每⼀个维度的含义，例如
+torch.Size([1, 256, 762])解释：([batch_size, dimension, 
+time_length])。（放⼊实验报告）（10%分数）
+•利⽤Facodec的代码实现⾳⾊转换效果，要求录制⼀段⾃⼰的语⾳提取⾳⾊信息
+Timbre/Speaker，提取samples\speaker1.wav的语调Prosody、内容Content和
+细节Acoustic Detail进⾏重构，重构后的⾳频保持samples\speaker1.wav的语调、
+内容，但⾳⾊转换为⾃⼰的⾳⾊。（代码截图+打印出语⾳转换前后的波形图和频谱图对⽐放⼊实
+验报告）。（10%分数）

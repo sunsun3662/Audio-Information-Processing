@@ -1,0 +1,86 @@
+{
+  "args": {
+    "aishell_root": "AISHELL-1",
+    "output_dir": "aishell_mini",
+    "known_speakers": 16,
+    "unknown_speakers": 4,
+    "enroll_per_speaker": 3,
+    "id_test_per_speaker": 4,
+    "verify_dev_per_speaker": 3,
+    "verify_test_per_speaker": 3,
+    "bonus_train_per_speaker": 8,
+    "bonus_val_per_speaker": 3,
+    "min_duration": 2.0,
+    "max_duration": 8.0,
+    "gender_balance": true,
+    "same_gender_negatives": true,
+    "negatives_per_positive": 1,
+    "copy_mode": "copy",
+    "seed": 42,
+    "overwrite": true,
+    "dry_run": false,
+    "verbose": false
+  },
+  "resolved_wav_root": "/workplace/nankai/zhangyanzhe_space/Datasets/AISHELL1/data_aishell/wav",
+  "resolved_transcript_path": "/workplace/nankai/zhangyanzhe_space/Datasets/AISHELL1/data_aishell/transcript/aishell_transcript_v0.8.txt",
+  "resolved_speaker_info_path": "/workplace/nankai/zhangyanzhe_space/Datasets/AISHELL1/resource_aishell/speaker.info",
+  "seed": 42,
+  "build_time": "2026-05-21T00:54:35",
+  "scan_stats": {
+    "total_wav_found": 141925,
+    "valid_wav_count": 138951,
+    "excluded_duration_count": 2974,
+    "excluded_sample_rate_count": 0,
+    "excluded_parse_spk_count": 0,
+    "excluded_audio_info_error_count": 0
+  },
+  "speaker_selection": {
+    "known_speakers": [
+      "S0251",
+      "S0096",
+      "S0160",
+      "S0166",
+      "S0248",
+      "S0230",
+      "S0192",
+      "S0124",
+      "S0340",
+      "S0517",
+      "S0194",
+      "S0655",
+      "S0040",
+      "S0722",
+      "S0731",
+      "S0748"
+    ],
+    "unknown_speakers": [
+      "S0114",
+      "S0105",
+      "S0758",
+      "S0049"
+    ]
+  },
+  "role_counts": {
+    "bonus_train": 128,
+    "bonus_val": 48,
+    "enroll": 48,
+    "identification_test": 64,
+    "unknown_test": 16,
+    "verification_dev": 48,
+    "verification_test": 48
+  },
+  "trial_counts": {
+    "dev": {
+      "0": 48,
+      "1": 48
+    },
+    "test": {
+      "0": 48,
+      "1": 48
+    }
+  },
+  "fallback_counts": {
+    "dev_same_gender_negative_fallbacks": 0,
+    "test_same_gender_negative_fallbacks": 0
+  }
+}

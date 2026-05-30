@@ -1,0 +1,401 @@
+utt_id,spk_id,path,duration_sec,sample_rate,num_channels,text_id,transcript,source_split,gender,role
+BAC009S0251W0458,S0251,wav/S0251/BAC009S0251W0458.wav,3.1699375,16000,1,W0458,但 有 胶带 贴 过 的 痕迹,train,0,enroll
+BAC009S0251W0349,S0251,wav/S0251/BAC009S0251W0349.wav,4.2749375,16000,1,W0349,胡 丽梅 赛后 接受 采访 时 说,train,0,enroll
+BAC009S0251W0248,S0251,wav/S0251/BAC009S0251W0248.wav,7.3630625,16000,1,W0248,可以 分别 参股 二家 基金 公司 其中 控股 不 得超 过 一 家,train,0,enroll
+BAC009S0251W0448,S0251,wav/S0251/BAC009S0251W0448.wav,7.3769375,16000,1,W0448,北二 环西 直 门桥 通往 西直 门外 大街 的 匝道 桥 上,train,0,identification_test
+BAC009S0251W0491,S0251,wav/S0251/BAC009S0251W0491.wav,5.927,16000,1,W0491,北京 三里 屯 男子 持 刀伤 人 女子 胸部 中 刀 倒地,train,0,identification_test
+BAC009S0251W0312,S0251,wav/S0251/BAC009S0251W0312.wav,3.453875,16000,1,W0312,医疗 还 处于 投入 建设 期,train,0,identification_test
+BAC009S0251W0151,S0251,wav/S0251/BAC009S0251W0151.wav,5.257,16000,1,W0151,随着 有效 市 销售 市场 的 继续 收窄,train,0,identification_test
+BAC009S0251W0463,S0251,wav/S0251/BAC009S0251W0463.wav,3.9919375,16000,1,W0463,之后 陆续 有 人 出现 轻微 咳嗽 现象,train,0,verification_dev
+BAC009S0251W0264,S0251,wav/S0251/BAC009S0251W0264.wav,7.578,16000,1,W0264,与 银 银 联合 作 不仅 打通 了 几乎 所有 银行 卡 合作 通道,train,0,verification_dev
+BAC009S0251W0433,S0251,wav/S0251/BAC009S0251W0433.wav,4.048125,16000,1,W0433,在 匝道 处 失去 控制 冲 下 桥,train,0,verification_dev
+BAC009S0251W0184,S0251,wav/S0251/BAC009S0251W0184.wav,7.709,16000,1,W0184,二零一五 年 房地 产 市场 的 政策 面 显 在 继续 宽松,train,0,verification_test
+BAC009S0251W0411,S0251,wav/S0251/BAC009S0251W0411.wav,2.5349375,16000,1,W0411,大张 着 嘴 搞怪,train,0,verification_test
+BAC009S0251W0316,S0251,wav/S0251/BAC009S0251W0316.wav,3.115,16000,1,W0316,我们 正在 做 一 个 云平 台,train,0,verification_test
+BAC009S0251W0203,S0251,wav/S0251/BAC009S0251W0203.wav,4.3239375,16000,1,W0203,一 是 目前 基金 持有 的 国债 规模,train,0,bonus_train
+BAC009S0251W0468,S0251,wav/S0251/BAC009S0251W0468.wav,5.1948125,16000,1,W0468,事后 该 店 将 十 馀 名 观众 转 厅 或 退票,train,0,bonus_train
+BAC009S0251W0143,S0251,wav/S0251/BAC009S0251W0143.wav,4.3239375,16000,1,W0143,这 也 会 抑制 抑制 其 涨价 冲动,train,0,bonus_train
+BAC009S0251W0240,S0251,wav/S0251/BAC009S0251W0240.wav,6.88,16000,1,W0240,应当 在 境内 外资 产 管理 行业 从业 五年 以上,train,0,bonus_train
+BAC009S0251W0191,S0251,wav/S0251/BAC009S0251W0191.wav,6.97,16000,1,W0191,中国 监证 会 将 继续 对 发行 上市 信息 披露 进行 严格 监管,train,0,bonus_train
+BAC009S0251W0222,S0251,wav/S0251/BAC009S0251W0222.wav,3.667,16000,1,W0222,证监 会 召开 新闻 发布 会,train,0,bonus_train
+BAC009S0251W0182,S0251,wav/S0251/BAC009S0251W0182.wav,5.1539375,16000,1,W0182,开始 鼓励 自 住 及 改善 需求 的 政策 落实,train,0,bonus_train
+BAC009S0251W0470,S0251,wav/S0251/BAC009S0251W0470.wav,5.118875,16000,1,W0470,新京 报 快讯 记者 林野 近日,train,0,bonus_train
+BAC009S0251W0464,S0251,wav/S0251/BAC009S0251W0464.wav,3.198,16000,1,W0464,出现 咳嗽 的有 十 馀 人,train,0,bonus_val
+BAC009S0251W0154,S0251,wav/S0251/BAC009S0251W0154.wav,5.706,16000,1,W0154,但 其 影响 范围 将 更多 地 仅 限于 一二 线 城市,train,0,bonus_val
+BAC009S0251W0239,S0251,wav/S0251/BAC009S0251W0239.wav,6.797,16000,1,W0239,应当 在 境内 外资 产 管理 行业 从业 一年 以上,train,0,bonus_val
+BAC009S0096W0157,S0096,wav/S0096/BAC009S0096W0157.wav,4.319,16000,1,W0157,最 低 为 下降 百分 之 九 点 八,train,0,enroll
+BAC009S0096W0308,S0096,wav/S0096/BAC009S0096W0308.wav,7.0971875,16000,1,W0308,中国 新能 源 电动 汽车 的 保有 量 超过 了 十二万 辆,train,0,enroll
+BAC009S0096W0361,S0096,wav/S0096/BAC009S0096W0361.wav,5.797875,16000,1,W0361,感觉 跑步 的 过程 因为 他们 也 变得 更加 有 趣 和生 动,train,0,enroll
+BAC009S0096W0165,S0096,wav/S0096/BAC009S0096W0165.wav,4.276,16000,1,W0165,最 高涨 幅 为 百分 之 十七 点 三,train,0,identification_test
+BAC009S0096W0490,S0096,wav/S0096/BAC009S0096W0490.wav,6.233875,16000,1,W0490,上海 市中心 一 老式 里弄 发生 火灾 现场 浓烟 滚滚,train,0,identification_test
+BAC009S0096W0195,S0096,wav/S0096/BAC009S0096W0195.wav,4.012,16000,1,W0195,针对 审计 发现 的 问题,train,0,identification_test
+BAC009S0096W0280,S0096,wav/S0096/BAC009S0096W0280.wav,6.5500625,16000,1,W0280,一旦 开发 团队 完成 了 最 新功 能 和 性能 改进 的 升级,train,0,identification_test
+BAC009S0096W0260,S0096,wav/S0096/BAC009S0096W0260.wav,4.8359375,16000,1,W0260,还 可以 给 微软 带来 更海 量 的 搜索 数据,train,0,verification_dev
+BAC009S0096W0303,S0096,wav/S0096/BAC009S0096W0303.wav,4.2731875,16000,1,W0303,一直 陷入 在 先建 充电 桩,train,0,verification_dev
+BAC009S0096W0352,S0096,wav/S0096/BAC009S0096W0352.wav,5.1540625,16000,1,W0352,唤醒 社会 各界 对于 自闭 症 儿童 的 关注,train,0,verification_dev
+BAC009S0096W0143,S0096,wav/S0096/BAC009S0096W0143.wav,4.752,16000,1,W0143,图片 来自 国家 统计 局 网站 截图,train,0,verification_test
+BAC009S0096W0427,S0096,wav/S0096/BAC009S0096W0427.wav,4.5090625,16000,1,W0427,有 网友 爆料 向 佐 欠债 百万 不 还,train,0,verification_test
+BAC009S0096W0464,S0096,wav/S0096/BAC009S0096W0464.wav,6.287875,16000,1,W0464,这样 的 奇观 发生 在 崇明 绿华 镇华 星村 内,train,0,verification_test
+BAC009S0096W0183,S0096,wav/S0096/BAC009S0096W0183.wav,3.875,16000,1,W0183,二线 城市 房价 总体 平稳,train,0,bonus_train
+BAC009S0096W0384,S0096,wav/S0096/BAC009S0096W0384.wav,6.313,16000,1,W0384,随后 进行 的 是 女子 二十五 米 运动 手枪 决赛,train,0,bonus_train
+BAC009S0096W0172,S0096,wav/S0096/BAC009S0096W0172.wav,7.813,16000,1,W0172,新建 商品 住宅 及 二手 住宅 价格 涨幅 远 高于 三线 城市,train,0,bonus_train
+BAC009S0096W0251,S0096,wav/S0096/BAC009S0096W0251.wav,4.4870625,16000,1,W0251,河南 省 将 全面 实施 改革,train,0,bonus_train
+BAC009S0096W0190,S0096,wav/S0096/BAC009S0096W0190.wav,4.0749375,16000,1,W0190,社会 保险 基金 规模 不 断 扩大,train,0,bonus_train
+BAC009S0096W0329,S0096,wav/S0096/BAC009S0096W0329.wav,4.187,16000,1,W0329,执行 大工 业 用电 价格,train,0,bonus_train
+BAC009S0096W0474,S0096,wav/S0096/BAC009S0096W0474.wav,6.056875,16000,1,W0474,上海 崇明 一男 子 试飞 滑翔 机 坠落 鱼塘 身亡,train,0,bonus_train
+BAC009S0096W0264,S0096,wav/S0096/BAC009S0096W0264.wav,5.923,16000,1,W0264,但 至少 这次 微软 让 人 感觉 方向 似乎 对 了,train,0,bonus_train
+BAC009S0096W0313,S0096,wav/S0096/BAC009S0096W0313.wav,6.2270625,16000,1,W0313,提出 了 充电 设施 建设 要 适度 超前 的 要求,train,0,bonus_val
+BAC009S0096W0216,S0096,wav/S0096/BAC009S0096W0216.wav,5.1420625,16000,1,W0216,切实 维护 人民 群众 的 基本 生活 权益,train,0,bonus_val
+BAC009S0096W0218,S0096,wav/S0096/BAC009S0096W0218.wav,5.1740625,16000,1,W0218,请问 您 如何 看待 审计 反映 的有 关 情况,train,0,bonus_val
+BAC009S0160W0279,S0160,wav/S0160/BAC009S0160W0279.wav,3.307,16000,1,W0279,三洋 电机 则全 面 退出,train,1,enroll
+BAC009S0160W0134,S0160,wav/S0160/BAC009S0160W0134.wav,3.414,16000,1,W0134,增长 幅度 最 高 的 一 家 公司 了,train,1,enroll
+BAC009S0160W0166,S0160,wav/S0160/BAC009S0160W0166.wav,3.216,16000,1,W0166,主要 系 受 工程 进度 调整,train,1,enroll
+BAC009S0160W0485,S0160,wav/S0160/BAC009S0160W0485.wav,5.1420625,16000,1,W0485,云南 一 女 高中 生 做 无 痛 人流 手术 台 上 意外 死亡,train,1,identification_test
+BAC009S0160W0194,S0160,wav/S0160/BAC009S0160W0194.wav,4.832,16000,1,W0194,使 受损 害 的 其他 投资 者 相对 迅速 地 获得 赔偿,train,1,identification_test
+BAC009S0160W0451,S0160,wav/S0160/BAC009S0160W0451.wav,3.709,16000,1,W0451,该 名 少年 竟然 不 知道 自身 已 违法,train,1,identification_test
+BAC009S0160W0325,S0160,wav/S0160/BAC009S0160W0325.wav,3.5130625,16000,1,W0325,不 排除 未来 给 其他 车 企 供货,train,1,identification_test
+BAC009S0160W0413,S0160,wav/S0160/BAC009S0160W0413.wav,3.025875,16000,1,W0413,搜狐 娱乐 讯 九月 八 日,train,1,verification_dev
+BAC009S0160W0297,S0160,wav/S0160/BAC009S0160W0297.wav,4.5030625,16000,1,W0297,并且 可以 将 数据 同步 至 苹果 健康 应用,train,1,verification_dev
+BAC009S0160W0197,S0160,wav/S0160/BAC009S0160W0197.wav,4.651,16000,1,W0197,郭 树清 目前 我 国债 券 市场 管理 不 统一,train,1,verification_dev
+BAC009S0160W0354,S0160,wav/S0160/BAC009S0160W0354.wav,5.3100625,16000,1,W0354,郎平 从 一九九五 年 首次 出任 中国 队 主教 练,train,1,verification_test
+BAC009S0160W0494,S0160,wav/S0160/BAC009S0160W0494.wav,5.2421875,16000,1,W0494,昨天 八 日中 午 在 食堂 的 饭菜 里 吃 到 了 一 个 安全 套,train,1,verification_test
+BAC009S0160W0174,S0160,wav/S0160/BAC009S0160W0174.wav,3.4549375,16000,1,W0174,点 击 进入 股友 会 参与 讨论,train,1,verification_test
+BAC009S0160W0343,S0160,wav/S0160/BAC009S0160W0343.wav,3.44675,16000,1,W0343,通过 全民 健身 活动 的 广泛 开展,train,1,bonus_train
+BAC009S0160W0314,S0160,wav/S0160/BAC009S0160W0314.wav,5.937,16000,1,W0314,他 的 主要 工作 就 是 陪同 贾 跃亭 在 海外 市场 寻找 落地 资源,train,1,bonus_train
+BAC009S0160W0122,S0160,wav/S0160/BAC009S0160W0122.wav,4.734,16000,1,W0122,净利 润 为 百分 之 八十 增速 仅 为 百分 之二,train,1,bonus_train
+BAC009S0160W0375,S0160,wav/S0160/BAC009S0160W0375.wav,5.3190625,16000,1,W0375,因此 她们 基本 上将 缺席 二零一五 年 的 所有 重大 比赛,train,1,bonus_train
+BAC009S0160W0249,S0160,wav/S0160/BAC009S0160W0249.wav,4.255,16000,1,W0249,无 力 监管 或 监管 不 到位 的 情况 较 为 普遍,train,1,bonus_train
+BAC009S0160W0448,S0160,wav/S0160/BAC009S0160W0448.wav,5.1960625,16000,1,W0448,云南 九零 后 无证 驾驶 无 牌 车 不 知 自身 已 违法,train,1,bonus_train
+BAC009S0160W0205,S0160,wav/S0160/BAC009S0160W0205.wav,3.6689375,16000,1,W0205,目的 是 弥补 债券 市场 制度 空白,train,1,bonus_train
+BAC009S0160W0271,S0160,wav/S0160/BAC009S0160W0271.wav,3.703,16000,1,W0271,之后 决定 将 三洋 完全 子 公司 化,train,1,bonus_train
+BAC009S0160W0404,S0160,wav/S0160/BAC009S0160W0404.wav,3.678,16000,1,W0404,业已 穿 上一 身 行头 的 蚁 人,train,1,bonus_val
+BAC009S0160W0155,S0160,wav/S0160/BAC009S0160W0155.wav,5.534,16000,1,W0155,另 一方面 报告 期 内 计提 了 存货 跌价 准备,train,1,bonus_val
+BAC009S0160W0260,S0160,wav/S0160/BAC009S0160W0260.wav,4.5190625,16000,1,W0260,虽然 品牌 售后 服务 仍 由 三洋 电机 承担,train,1,bonus_val
+BAC009S0166W0435,S0166,wav/S0166/BAC009S0166W0435.wav,4.6159375,16000,1,W0435,涉 事 导游 左 某某 已 被 吊销 导游 证,train,1,enroll
+BAC009S0166W0377,S0166,wav/S0166/BAC009S0166W0377.wav,3.0,16000,1,W0377,明年 的 奥运 会才 是 大考,train,1,enroll
+BAC009S0166W0413,S0166,wav/S0166/BAC009S0166W0413.wav,4.5180625,16000,1,W0413,周董 一 家三 口 疑似 已 悄悄 离开 月子 中心,train,1,enroll
+BAC009S0166W0209,S0166,wav/S0166/BAC009S0166W0209.wav,3.068,16000,1,W0209,限 购 银行 限 贷 的 影响 很大,train,1,identification_test
+BAC009S0166W0230,S0166,wav/S0166/BAC009S0166W0230.wav,2.834,16000,1,W0230,同比 下降 六 个 百分点,train,1,identification_test
+BAC009S0166W0336,S0166,wav/S0166/BAC009S0166W0336.wav,4.8149375,16000,1,W0336,云 计算 平台 不 得 将 这些 数据 移 作 他 用,train,1,identification_test
+BAC009S0166W0315,S0166,wav/S0166/BAC009S0166W0315.wav,2.707,16000,1,W0315,也有 了 很多 新 的 盈利 点,train,1,identification_test
+BAC009S0166W0260,S0166,wav/S0166/BAC009S0166W0260.wav,3.3969375,16000,1,W0260,现在 他们 做出 了 一项 新 的 决定,train,1,verification_dev
+BAC009S0166W0174,S0166,wav/S0166/BAC009S0166W0174.wav,3.015,16000,1,W0174,中指 院 发布 的 报告 显示,train,1,verification_dev
+BAC009S0166W0466,S0166,wav/S0166/BAC009S0166W0466.wav,6.161625,16000,1,W0466,五保 户 不 愿 搬 离 破旧 老宅 志愿 者 出钱 出力 为其 修 房,train,1,verification_dev
+BAC009S0166W0318,S0166,wav/S0166/BAC009S0166W0318.wav,4.6391875,16000,1,W0318,目前 老人 是有 线 电视 最 忠实 的 用户 群体,train,1,verification_test
+BAC009S0166W0323,S0166,wav/S0166/BAC009S0166W0323.wav,3.7688125,16000,1,W0323,而 无 论 是 基于 电信 网 还是 广电 网,train,1,verification_test
+BAC009S0166W0193,S0166,wav/S0166/BAC009S0166W0193.wav,6.0,16000,1,W0193,收费 标准 的 下调 使 房地 产经 纪行 业 面临 巨大 的 市场 考验,train,1,verification_test
+BAC009S0166W0409,S0166,wav/S0166/BAC009S0166W0409.wav,3.797125,16000,1,W0409,搜狐 娱乐 讯 据 台湾 媒体 报道,train,1,bonus_train
+BAC009S0166W0342,S0166,wav/S0166/BAC009S0166W0342.wav,5.7419375,16000,1,W0342,让 人 看到 了 明年 里约 奥运 会 她们 冲击 奖牌 的 希望,train,1,bonus_train
+BAC009S0166W0381,S0166,wav/S0166/BAC009S0166W0381.wav,3.057125,16000,1,W0381,中国 体育 发生 了 很大 变化,train,1,bonus_train
+BAC009S0166W0240,S0166,wav/S0166/BAC009S0166W0240.wav,3.2800625,16000,1,W0240,一 套房 就可 能 省 几十万 元,train,1,bonus_train
+BAC009S0166W0257,S0166,wav/S0166/BAC009S0166W0257.wav,5.2209375,16000,1,W0257,很 难 想象 苹果 的 产品 就像 传家 宝 一 样 代代 相传,train,1,bonus_train
+BAC009S0166W0147,S0166,wav/S0166/BAC009S0166W0147.wav,4.738,16000,1,W0147,上海 市 土地 成交 均价 为 八千 元 每平 方米,train,1,bonus_train
+BAC009S0166W0457,S0166,wav/S0166/BAC009S0166W0457.wav,3.3769375,16000,1,W0457,其 公司 班车 在 当晚 出车 前,train,1,bonus_train
+BAC009S0166W0135,S0166,wav/S0166/BAC009S0166W0135.wav,5.9340625,16000,1,W0135,这 也 与 上周 末 公布 的 房价 涨跌 变动 情况 相 吻合,train,1,bonus_train
+BAC009S0166W0495,S0166,wav/S0166/BAC009S0166W0495.wav,3.5590625,16000,1,W0495,被告 人 王 某某 因 敲诈 勒索 罪,train,1,bonus_val
+BAC009S0166W0436,S0166,wav/S0166/BAC009S0166W0436.wav,5.4109375,16000,1,W0436,云南 高速 公路 多 车 连环 相撞 已 致 五 死 四 伤,train,1,bonus_val
+BAC009S0166W0175,S0166,wav/S0166/BAC009S0166W0175.wav,4.458,16000,1,W0175,董事 长 潘 石 屹 现场 与 租赁 者 交流,train,1,bonus_val
+BAC009S0248W0477,S0248,wav/S0248/BAC009S0248W0477.wav,3.5188125,16000,1,W0477,今年 狂犬 病 已死 亡 八 人,train,0,enroll
+BAC009S0248W0388,S0248,wav/S0248/BAC009S0248W0388.wav,5.4509375,16000,1,W0388,第 二轮 将 对阵 另 一 位 山东 选手 顾 玉婷,train,0,enroll
+BAC009S0248W0404,S0248,wav/S0248/BAC009S0248W0404.wav,3.428,16000,1,W0404,受到 到场 媒体 的 称赞,train,0,enroll
+BAC009S0248W0352,S0248,wav/S0248/BAC009S0248W0352.wav,5.8220625,16000,1,W0352,首场 比赛 由 李 晓丹 迎战 王 曼 艺,train,0,identification_test
+BAC009S0248W0126,S0248,wav/S0248/BAC009S0248W0126.wav,6.022,16000,1,W0126,该 税 将 促进 房地 产 市场 更加 健康 地 运行,train,0,identification_test
+BAC009S0248W0291,S0248,wav/S0248/BAC009S0248W0291.wav,4.1628125,16000,1,W0291,这 为 谷歌 提供 了 强大 的 立足 点,train,0,identification_test
+BAC009S0248W0414,S0248,wav/S0248/BAC009S0248W0414.wav,4.661125,16000,1,W0414,结婚 当 妈 后人 气 不 减 反 增,train,0,identification_test
+BAC009S0248W0138,S0248,wav/S0248/BAC009S0248W0138.wav,5.7309375,16000,1,W0138,算账 算账 按照 一名 停车 管理 员 的 指点,train,0,verification_dev
+BAC009S0248W0122,S0248,wav/S0248/BAC009S0248W0122.wav,3.827,16000,1,W0122,参考 英美 等 西方 国家,train,0,verification_dev
+BAC009S0248W0370,S0248,wav/S0248/BAC009S0248W0370.wav,2.9301875,16000,1,W0370,北京 时间 十月 七日,train,0,verification_dev
+BAC009S0248W0306,S0248,wav/S0248/BAC009S0248W0306.wav,3.5190625,16000,1,W0306,所以 前段 时间 做 了 融资,train,0,verification_test
+BAC009S0248W0351,S0248,wav/S0248/BAC009S0248W0351.wav,4.063,16000,1,W0351,又一 队 实现 该 项目 卫冕 的 球队,train,0,verification_test
+BAC009S0248W0161,S0248,wav/S0248/BAC009S0248W0161.wav,5.976,16000,1,W0161,且 每年 的人 工 电费 维修 等 成本 不 菲,train,0,verification_test
+BAC009S0248W0176,S0248,wav/S0248/BAC009S0248W0176.wav,3.918,16000,1,W0176,可以 对外 进行 出租 经营,train,0,bonus_train
+BAC009S0248W0246,S0248,wav/S0248/BAC009S0248W0246.wav,6.937,16000,1,W0246,对于 缺乏 业务 发展 战略 长期 不 开展 基金 托管 业务,train,0,bonus_train
+BAC009S0248W0327,S0248,wav/S0248/BAC009S0248W0327.wav,7.5820625,16000,1,W0327,正在 筹划 购买 北京 捷达 无 线 科技 有限 公司 部分 股权 事宜,train,0,bonus_train
+BAC009S0248W0346,S0248,wav/S0248/BAC009S0248W0346.wav,7.7170625,16000,1,W0346,两位 第 三 打 成员 激战 得 难解 难分,train,0,bonus_train
+BAC009S0248W0486,S0248,wav/S0248/BAC009S0248W0486.wav,4.979,16000,1,W0486,提醒 被疑 似 有 狂犬 病毒 的 动物 咬伤 后,train,0,bonus_train
+BAC009S0248W0150,S0248,wav/S0248/BAC009S0248W0150.wav,7.9260625,16000,1,W0150,停车 楼 里约 一百 个 停车 位 被 附近 某家 饭店 承租,train,0,bonus_train
+BAC009S0248W0292,S0248,wav/S0248/BAC009S0248W0292.wav,6.9558125,16000,1,W0292,从此 它 将 是 汽车 的 一 部分 而 不 只是 附加 物件,train,0,bonus_train
+BAC009S0248W0471,S0248,wav/S0248/BAC009S0248W0471.wav,6.7570625,16000,1,W0471,北京 一水 窖 内 工人 中毒 身亡 营救 民警 殉职,train,0,bonus_train
+BAC009S0248W0133,S0248,wav/S0248/BAC009S0248W0133.wav,7.346,16000,1,W0133,这 让 不 少 逡巡 已 久 的 资本 躁动 起来,train,0,bonus_val
+BAC009S0248W0495,S0248,wav/S0248/BAC009S0248W0495.wav,3.71775,16000,1,W0495,库房 内 的 塑料 瓶子 点燃 后,train,0,bonus_val
+BAC009S0248W0206,S0248,wav/S0248/BAC009S0248W0206.wav,5.251,16000,1,W0206,为 加强 减 记 债 的 风险 管理,train,0,bonus_val
+BAC009S0230W0278,S0230,wav/S0230/BAC009S0230W0278.wav,4.361,16000,1,W0278,即 今天 欧盟 可能 会 对 芯片 定价 提出 问题,train,1,enroll
+BAC009S0230W0379,S0230,wav/S0230/BAC009S0230W0379.wav,3.027875,16000,1,W0379,阿尔萨 森 今年 才 二十一 岁,train,1,enroll
+BAC009S0230W0124,S0230,wav/S0230/BAC009S0230W0124.wav,3.5959375,16000,1,W0124,深圳 的 南山 区 华强北 等,train,1,enroll
+BAC009S0230W0265,S0230,wav/S0230/BAC009S0230W0265.wav,2.9499375,16000,1,W0265,分拆 能 给 高通 带来 什么,train,1,identification_test
+BAC009S0230W0474,S0230,wav/S0230/BAC009S0230W0474.wav,3.303,16000,1,W0474,由于 全球 股市 遭遇 黑色 星期 一,train,1,identification_test
+BAC009S0230W0135,S0230,wav/S0230/BAC009S0230W0135.wav,3.294,16000,1,W0135,发展 潜力 相对 大一 些,train,1,identification_test
+BAC009S0230W0354,S0230,wav/S0230/BAC009S0230W0354.wav,3.4148125,16000,1,W0354,好像 这个 馆 更加 适合 他 比赛,train,1,identification_test
+BAC009S0230W0361,S0230,wav/S0230/BAC009S0230W0361.wav,3.5949375,16000,1,W0361,林丹 输 在 了 比赛 能力 不 如 对手,train,1,verification_dev
+BAC009S0230W0210,S0230,wav/S0230/BAC009S0230W0210.wav,4.515,16000,1,W0210,为 何 给 我们 签订 的 合同 中包 括 了 商业 广告 呢,train,1,verification_dev
+BAC009S0230W0396,S0230,wav/S0230/BAC009S0230W0396.wav,2.563,16000,1,W0396,输球 的 阴霾 一扫 而 空,train,1,verification_dev
+BAC009S0230W0384,S0230,wav/S0230/BAC009S0230W0384.wav,2.9499375,16000,1,W0384,尽管 谌 龙 以 二 比 零 取胜,train,1,verification_test
+BAC009S0230W0217,S0230,wav/S0230/BAC009S0230W0217.wav,4.8769375,16000,1,W0217,他们 与 成都 红十字 会 的 工作 人员 协商,train,1,verification_test
+BAC009S0230W0173,S0230,wav/S0230/BAC009S0230W0173.wav,3.999,16000,1,W0173,记者 从 北上 广深 等 一 线 城市 了解 到,train,1,verification_test
+BAC009S0230W0318,S0230,wav/S0230/BAC009S0230W0318.wav,3.156,16000,1,W0318,我们 会全 力 配合 这个 充电 国标,train,1,bonus_train
+BAC009S0230W0286,S0230,wav/S0230/BAC009S0230W0286.wav,4.24,16000,1,W0286,高通 是一 个 无法 逾越 的 门槛,train,1,bonus_train
+BAC009S0230W0473,S0230,wav/S0230/BAC009S0230W0473.wav,3.3708125,16000,1,W0473,华商 报 记者 从 多家 分析 机构 了解 到,train,1,bonus_train
+BAC009S0230W0158,S0230,wav/S0230/BAC009S0230W0158.wav,3.2170625,16000,1,W0158,二零一二 年 和 二零一三 年,train,1,bonus_train
+BAC009S0230W0495,S0230,wav/S0230/BAC009S0230W0495.wav,3.234125,16000,1,W0495,京 东 表示 这 属于 刘 强东 私事,train,1,bonus_train
+BAC009S0230W0190,S0230,wav/S0230/BAC009S0230W0190.wav,4.808125,16000,1,W0190,因此 募捐 箱 整体 设置 情况 尚 处于 动态 变化 中,train,1,bonus_train
+BAC009S0230W0352,S0230,wav/S0230/BAC009S0230W0352.wav,2.6660625,16000,1,W0352,我 也 不 知道 为什么 输球,train,1,bonus_train
+BAC009S0230W0405,S0230,wav/S0230/BAC009S0230W0405.wav,5.0229375,16000,1,W0405,于 今日 曝出 长达 二十三 分钟 的 删节 片段 和 另 一版 结局,train,1,bonus_train
+BAC009S0230W0491,S0230,wav/S0230/BAC009S0230W0491.wav,3.526875,16000,1,W0491,刘 强东 与 奶茶 妹妹 领证 结婚,train,1,bonus_val
+BAC009S0230W0152,S0230,wav/S0230/BAC009S0230W0152.wav,4.481,16000,1,W0152,未来 三四 线 的 机会 可能 更多 的 在 城镇 化,train,1,bonus_val
+BAC009S0230W0432,S0230,wav/S0230/BAC009S0230W0432.wav,3.354,16000,1,W0432,一 场 车祸 却 把 蓝 某 重新 震 出,train,1,bonus_val
+BAC009S0192W0233,S0192,wav/S0192/BAC009S0192W0233.wav,7.094,16000,1,W0233,加强 对 异常 个人 对外 投资 交易 的 筛选 和 预警,train,1,enroll
+BAC009S0192W0175,S0192,wav/S0192/BAC009S0192W0175.wav,6.8219375,16000,1,W0175,要 顺应 网络 时代 推动 大众 创业 万众 创新 的 形势,train,1,enroll
+BAC009S0192W0382,S0192,wav/S0192/BAC009S0192W0382.wav,4.668,16000,1,W0382,这种 情形 得到 了 大 为 改观,train,1,enroll
+BAC009S0192W0132,S0192,wav/S0192/BAC009S0192W0132.wav,5.7980625,16000,1,W0132,首次 开盘 价格 在 四万 元 每平 方米 水平,train,1,identification_test
+BAC009S0192W0399,S0192,wav/S0192/BAC009S0192W0399.wav,5.5080625,16000,1,W0399,都 是 中国 游泳 取得 突飞 猛进 成绩 的 原因,train,1,identification_test
+BAC009S0192W0398,S0192,wav/S0192/BAC009S0192W0398.wav,4.8610625,16000,1,W0398,给 中国 游泳 队 不 断 输入 中坚 力量,train,1,identification_test
+BAC009S0192W0240,S0192,wav/S0192/BAC009S0192W0240.wav,3.6,16000,1,W0240,在 计征 个人 所 得 税 时,train,1,identification_test
+BAC009S0192W0241,S0192,wav/S0192/BAC009S0192W0241.wav,2.3559375,16000,1,W0241,即 四元 每年,train,1,verification_dev
+BAC009S0192W0238,S0192,wav/S0192/BAC009S0192W0238.wav,5.1850625,16000,1,W0238,个体 业主 个税 起征 点将 上调,train,1,verification_dev
+BAC009S0192W0438,S0192,wav/S0192/BAC009S0192W0438.wav,7.743125,16000,1,W0438,店主 自称 出售 带有 公章 的 医院 假条 并 称 保真,train,1,verification_dev
+BAC009S0192W0220,S0192,wav/S0192/BAC009S0192W0220.wav,7.453,16000,1,W0220,将 个人 境外 投资 情况 纳入 央行 征信 系统 管理,train,1,verification_test
+BAC009S0192W0345,S0192,wav/S0192/BAC009S0192W0345.wav,4.9309375,16000,1,W0345,她 依然 处于 有 潜力 可 挖 的 时期,train,1,verification_test
+BAC009S0192W0136,S0192,wav/S0192/BAC009S0192W0136.wav,5.71,16000,1,W0136,核心 区 豪宅 的 价值 成长 有 目 共 睹,train,1,verification_test
+BAC009S0192W0307,S0192,wav/S0192/BAC009S0192W0307.wav,6.183,16000,1,W0307,现在 政府 鼓励 智能 化 也 就 是 机器 人 产业,train,1,bonus_train
+BAC009S0192W0377,S0192,wav/S0192/BAC009S0192W0377.wav,3.599125,16000,1,W0377,绝 大多 数 要 归功 于 女 选手,train,1,bonus_train
+BAC009S0192W0461,S0192,wav/S0192/BAC009S0192W0461.wav,3.2849375,16000,1,W0461,每天 发货 六百多 单,train,1,bonus_train
+BAC009S0192W0231,S0192,wav/S0192/BAC009S0192W0231.wav,4.3609375,16000,1,W0231,开发 个人 境外 投资 管理 系统,train,1,bonus_train
+BAC009S0192W0424,S0192,wav/S0192/BAC009S0192W0424.wav,7.6809375,16000,1,W0424,汪 小菲 更 是 别 有新 意 的 送 上 玫瑰 花 造型 生日 蛋糕,train,1,bonus_train
+BAC009S0192W0440,S0192,wav/S0192/BAC009S0192W0440.wav,4.782,16000,1,W0440,不 挂号 和建 档 无法 开 假条,train,1,bonus_train
+BAC009S0192W0216,S0192,wav/S0192/BAC009S0192W0216.wav,5.098,16000,1,W0216,加强 对 个人 境外 投资 的 监管 力度,train,1,bonus_train
+BAC009S0192W0234,S0192,wav/S0192/BAC009S0192W0234.wav,5.6059375,16000,1,W0234,促 人 促进 个人 境外 直接 投资 发展,train,1,bonus_train
+BAC009S0192W0387,S0192,wav/S0192/BAC009S0192W0387.wav,6.7780625,16000,1,W0387,孙 杨 继续 保持 中长 距离 自由 泳 世界 领先 地位,train,1,bonus_val
+BAC009S0192W0160,S0192,wav/S0192/BAC009S0192W0160.wav,3.959,16000,1,W0160,不 妨 将 时间 折回 到 今年,train,1,bonus_val
+BAC009S0192W0425,S0192,wav/S0192/BAC009S0192W0425.wav,4.738,16000,1,W0425,搜狐 娱乐 讯 据 台湾 媒体 报道,train,1,bonus_val
+BAC009S0124W0197,S0124,wav/S0124/BAC009S0124W0197.wav,3.28,16000,1,W0197,但 一 个 不 容 忽视 的 现实 却是,train,1,enroll
+BAC009S0124W0160,S0124,wav/S0124/BAC009S0124W0160.wav,3.9509375,16000,1,W0160,较 上月 上升 十一 个 百分点,train,1,enroll
+BAC009S0124W0212,S0124,wav/S0124/BAC009S0124W0212.wav,3.616125,16000,1,W0212,中原 地产 研究 部 总监 张大 伟 表示,train,1,enroll
+BAC009S0124W0483,S0124,wav/S0124/BAC009S0124W0483.wav,6.26225,16000,1,W0483,破获 各类 侵 财 性 案件 两千 六百零三 起,train,1,identification_test
+BAC009S0124W0306,S0124,wav/S0124/BAC009S0124W0306.wav,2.944125,16000,1,W0306,可以 通过 断骨 再 续 进行 矫正,train,1,identification_test
+BAC009S0124W0400,S0124,wav/S0124/BAC009S0124W0400.wav,3.28,16000,1,W0400,绝 不 是 说 我们 中国 的 教练 不 行,train,1,identification_test
+BAC009S0124W0165,S0124,wav/S0124/BAC009S0124W0165.wav,4.324125,16000,1,W0165,造成 了 全国 土地 成交 明显 下调,train,1,identification_test
+BAC009S0124W0194,S0124,wav/S0124/BAC009S0124W0194.wav,2.944125,16000,1,W0194,如果 按照 平常 测算,train,1,verification_dev
+BAC009S0124W0361,S0124,wav/S0124/BAC009S0124W0361.wav,4.771,16000,1,W0361,这个 家族 已经 诞生 了 两位 奥运 冠军 和一 位 奥运 亚军,train,1,verification_dev
+BAC009S0124W0171,S0124,wav/S0124/BAC009S0124W0171.wav,3.7740625,16000,1,W0171,平均 溢价 率 继续 上月 上升 走势,train,1,verification_dev
+BAC009S0124W0129,S0124,wav/S0124/BAC009S0124W0129.wav,5.95,16000,1,W0129,北上 广深 四 个 一 线 城市 的 房价 环比 增幅 最 大,train,1,verification_test
+BAC009S0124W0379,S0124,wav/S0124/BAC009S0124W0379.wav,3.2060625,16000,1,W0379,中国 田径 队 总 教练 冯 树勇 介绍,train,1,verification_test
+BAC009S0124W0177,S0124,wav/S0124/BAC009S0124W0177.wav,3.094,16000,1,W0177,但 因为 挂牌 土地 明显 减少,train,1,verification_test
+BAC009S0124W0491,S0124,wav/S0124/BAC009S0124W0491.wav,3.838875,16000,1,W0491,俩 男子 砸死 老人 卖掉 其 两岁 外孙,train,1,bonus_train
+BAC009S0124W0365,S0124,wav/S0124/BAC009S0124W0365.wav,4.6589375,16000,1,W0365,刘 虹 的 世锦赛 女子 二十 公里 竞走 银牌 铜牌,train,1,bonus_train
+BAC009S0124W0238,S0124,wav/S0124/BAC009S0124W0238.wav,4.2860625,16000,1,W0238,其 上述 住房 先 按 规定 计算 征收 房产 税,train,1,bonus_train
+BAC009S0124W0130,S0124,wav/S0124/BAC009S0124W0130.wav,3.31,16000,1,W0130,与 一 线 城市 的 房价 大涨 相比,train,1,bonus_train
+BAC009S0124W0298,S0124,wav/S0124/BAC009S0124W0298.wav,3.131125,16000,1,W0298,针对 韩国 政府 的 管制 政策,train,1,bonus_train
+BAC009S0124W0395,S0124,wav/S0124/BAC009S0124W0395.wav,3.7641875,16000,1,W0395,在 中国 选手 走出 去 训练 的 过程 中,train,1,bonus_train
+BAC009S0124W0340,S0124,wav/S0124/BAC009S0124W0340.wav,3.0190625,16000,1,W0340,但 不管 是 壮志 未 酬 的 李 金 哲,train,1,bonus_train
+BAC009S0124W0121,S0124,wav/S0124/BAC009S0124W0121.wav,3.036,16000,1,W0121,达到 百分 之 六 点 三,train,1,bonus_train
+BAC009S0124W0219,S0124,wav/S0124/BAC009S0124W0219.wav,3.392,16000,1,W0219,而 多 套房 房产 税 的 实施 后,train,1,bonus_val
+BAC009S0124W0378,S0124,wav/S0124/BAC009S0124W0378.wav,2.943875,16000,1,W0378,但 在 中国 却 未能 取得 成功,train,1,bonus_val
+BAC009S0124W0363,S0124,wav/S0124/BAC009S0124W0363.wav,7.0070625,16000,1,W0363,中国 选手 苏 欣悦 以 六十二 米 九零 排名 第 八,train,1,bonus_val
+BAC009S0340W0266,S0340,wav/S0340/BAC009S0340W0266.wav,3.4289375,16000,1,W0266,从 备受 国民 追捧 的 外资 洋 牌,train,1,enroll
+BAC009S0340W0150,S0340,wav/S0340/BAC009S0340W0150.wav,3.659,16000,1,W0150,某一 项目 难以 测算 未来 收益,train,1,enroll
+BAC009S0340W0229,S0340,wav/S0340/BAC009S0340W0229.wav,6.146,16000,1,W0229,违反 了 股票 发现 价值 投资 价值 资源 合理 配置 的 初衷,train,1,enroll
+BAC009S0340W0385,S0340,wav/S0340/BAC009S0340W0385.wav,3.5431875,16000,1,W0385,向 自己 的 偶像 皮特 伯格 学习,train,1,identification_test
+BAC009S0340W0179,S0340,wav/S0340/BAC009S0340W0179.wav,2.0909375,16000,1,W0179,总价 一万 元,train,1,identification_test
+BAC009S0340W0134,S0340,wav/S0340/BAC009S0340W0134.wav,2.237,16000,1,W0134,解决 投资 问题,train,1,identification_test
+BAC009S0340W0384,S0340,wav/S0340/BAC009S0340W0384.wav,2.801,16000,1,W0384,比 上午 的 预赛 要 慢 一些,train,1,identification_test
+BAC009S0340W0255,S0340,wav/S0340/BAC009S0340W0255.wav,4.642,16000,1,W0255,向上 海灯 泡 厂 提供 黑白 显像 管 成套 设备,train,1,verification_dev
+BAC009S0340W0337,S0340,wav/S0340/BAC009S0340W0337.wav,4.484,16000,1,W0337,从而 能够 根据 审视 结果 优化 这些 流程,train,1,verification_dev
+BAC009S0340W0227,S0340,wav/S0340/BAC009S0340W0227.wav,2.842875,16000,1,W0227,往往 容易 走 极端 行情,train,1,verification_dev
+BAC009S0340W0363,S0340,wav/S0340/BAC009S0340W0363.wav,3.7939375,16000,1,W0363,之后 的 比赛 虽然 游 的 时候 感觉 挺好,train,1,verification_test
+BAC009S0340W0129,S0340,wav/S0340/BAC009S0340W0129.wav,3.0110625,16000,1,W0129,滚存 下来 的 集体 奖金,train,1,verification_test
+BAC009S0340W0186,S0340,wav/S0340/BAC009S0340W0186.wav,2.5089375,16000,1,W0186,南海 气象 局 用地,train,1,verification_test
+BAC009S0340W0443,S0340,wav/S0340/BAC009S0340W0443.wav,4.255125,16000,1,W0443,位于 登陆 点 北部 城市 福州 水 漫 全城,train,1,bonus_train
+BAC009S0340W0428,S0340,wav/S0340/BAC009S0340W0428.wav,3.827125,16000,1,W0428,搜狐 娱乐 讯 据 台湾 媒体 报道,train,1,bonus_train
+BAC009S0340W0311,S0340,wav/S0340/BAC009S0340W0311.wav,4.557,16000,1,W0311,适应 新兴 产业 市场 化 竞争 比较 强 的 特点,train,1,bonus_train
+BAC009S0340W0447,S0340,wav/S0340/BAC009S0340W0447.wav,4.1081875,16000,1,W0447,请假 条 上 写 着 快 忘 了 老公 长 啥 样 了,train,1,bonus_train
+BAC009S0340W0482,S0340,wav/S0340/BAC009S0340W0482.wav,4.1179375,16000,1,W0482,最终 因为 分神 撞死 了 骑车 过路 的 老人,train,1,bonus_train
+BAC009S0340W0445,S0340,wav/S0340/BAC009S0340W0445.wav,6.167,16000,1,W0445,史 上 最 不 忍 拒绝 请假 条 快 忘 了 老公 长 啥 样 了,train,1,bonus_train
+BAC009S0340W0155,S0340,wav/S0340/BAC009S0340W0155.wav,4.243,16000,1,W0155,其 个人 承担 的 风险 或许 大于 收益,train,1,bonus_train
+BAC009S0340W0136,S0340,wav/S0340/BAC009S0340W0136.wav,6.293,16000,1,W0136,事件 合伙 人 管理 则 是 根据 某一 事件 临时 组建 合伙 人,train,1,bonus_train
+BAC009S0340W0419,S0340,wav/S0340/BAC009S0340W0419.wav,2.885,16000,1,W0419,找 不 到 合适 的 睡眠 角度,train,1,bonus_val
+BAC009S0340W0207,S0340,wav/S0340/BAC009S0340W0207.wav,4.2750625,16000,1,W0207,对 上市 公司 将来 的 经营 发展 都 不 太好,train,1,bonus_val
+BAC009S0340W0171,S0340,wav/S0340/BAC009S0340W0171.wav,3.68,16000,1,W0171,不 具备 实际 控制 力 的 郁 亮 管理 层,train,1,bonus_val
+BAC009S0517W0244,S0517,wav/S0517/BAC009S0517W0244.wav,6.2070625,16000,1,W0244,违规 信 披 所 获 收益 远大 于 违规 支出,train,1,enroll
+BAC009S0517W0227,S0517,wav/S0517/BAC009S0517W0227.wav,3.749,16000,1,W0227,这 是纯 粹 的 资金 池 产品,train,1,enroll
+BAC009S0517W0373,S0517,wav/S0517/BAC009S0517W0373.wav,3.501,16000,1,W0373,这 也是 以 运动 员 的 身体 为重,train,1,enroll
+BAC009S0517W0135,S0517,wav/S0517/BAC009S0517W0135.wav,7.064,16000,1,W0135,包括 房地 产 税法 在内 的 立法 任务 亮相 其中,train,1,identification_test
+BAC009S0517W0365,S0517,wav/S0517/BAC009S0517W0365.wav,3.099875,16000,1,W0365,因为 我 以前 也是 运动 员,train,1,identification_test
+BAC009S0517W0447,S0517,wav/S0517/BAC009S0517W0447.wav,3.275875,16000,1,W0447,而 她 的 儿子 小名 就叫 索尼,train,1,identification_test
+BAC009S0517W0188,S0517,wav/S0517/BAC009S0517W0188.wav,4.2249375,16000,1,W0188,公司 的 风 控 部门 将 标准 提高,train,1,identification_test
+BAC009S0517W0490,S0517,wav/S0517/BAC009S0517W0490.wav,4.816875,16000,1,W0490,车 上 女 司机 想 让 女 老人 让路,train,1,verification_dev
+BAC009S0517W0448,S0517,wav/S0517/BAC009S0517W0448.wav,6.7109375,16000,1,W0448,妈妈 抱 着 娃 倒车 车门 没 关紧 孩子 掉落 砸伤,train,1,verification_dev
+BAC009S0517W0316,S0517,wav/S0517/BAC009S0517W0316.wav,6.701875,16000,1,W0316,三人 因 涉嫌 过失 以 危险 方法 危害 公共 安全 罪 被 起诉,train,1,verification_dev
+BAC009S0517W0208,S0517,wav/S0517/BAC009S0517W0208.wav,3.9240625,16000,1,W0208,主动 规避 一些 信托 项目 的 风险,train,1,verification_test
+BAC009S0517W0216,S0517,wav/S0517/BAC009S0517W0216.wav,6.329125,16000,1,W0216,在目 前 近 六万 亿 的 信托 管理 资产 规模 里,train,1,verification_test
+BAC009S0517W0285,S0517,wav/S0517/BAC009S0517W0285.wav,3.032,16000,1,W0285,从 二零一二 年底 开始,train,1,verification_test
+BAC009S0517W0342,S0517,wav/S0517/BAC009S0517W0342.wav,3.4179375,16000,1,W0342,而 对于 目前 最 困难 的 问题,train,1,bonus_train
+BAC009S0517W0376,S0517,wav/S0517/BAC009S0517W0376.wav,3.1579375,16000,1,W0376,明年 的 里约 奥运 等 着 他,train,1,bonus_train
+BAC009S0517W0156,S0517,wav/S0517/BAC009S0517W0156.wav,4.868,16000,1,W0156,使 这种 低速 增长 态势 可能 延续,train,1,bonus_train
+BAC009S0517W0467,S0517,wav/S0517/BAC009S0517W0467.wav,5.042,16000,1,W0467,蒋 某 被控 放火 罪 在朝 阳 法院 受审,train,1,bonus_train
+BAC009S0517W0326,S0517,wav/S0517/BAC009S0517W0326.wav,4.2900625,16000,1,W0326,如果 坠落 可能 造成 人员 和 财物 的 伤害,train,1,bonus_train
+BAC009S0517W0310,S0517,wav/S0517/BAC009S0517W0310.wav,3.3840625,16000,1,W0310,两班 次 实施 空中 避让,train,1,bonus_train
+BAC009S0517W0256,S0517,wav/S0517/BAC009S0517W0256.wav,2.7309375,16000,1,W0256,我们 现有 这样 的 设备,train,1,bonus_train
+BAC009S0517W0395,S0517,wav/S0517/BAC009S0517W0395.wav,3.1161875,16000,1,W0395,凭借 队员 之间 的 默契,train,1,bonus_train
+BAC009S0517W0479,S0517,wav/S0517/BAC009S0517W0479.wav,2.928,16000,1,W0479,其 在 高速 公路 上 迷路,train,1,bonus_val
+BAC009S0517W0291,S0517,wav/S0517/BAC009S0517W0291.wav,3.3000625,16000,1,W0291,苹果 手表 的 推出 让 他 觉得,train,1,bonus_val
+BAC009S0517W0455,S0517,wav/S0517/BAC009S0517W0455.wav,4.36525,16000,1,W0455,到 学校 要 走 二十 分钟 还要 过 个 马路,train,1,bonus_val
+BAC009S0194W0228,S0194,wav/S0194/BAC009S0194W0228.wav,4.3710625,16000,1,W0228,和 研发 以及 生产 处于 同等 重要 的 位置,train,1,enroll
+BAC009S0194W0443,S0194,wav/S0194/BAC009S0194W0443.wav,5.6320625,16000,1,W0443,僵尸 车 小区 楼道 口 侧翻 五年 居民 欲 卖 废铁,train,1,enroll
+BAC009S0194W0140,S0194,wav/S0194/BAC009S0194W0140.wav,3.267,16000,1,W0140,房东 发现 市场 行情 很好,train,1,enroll
+BAC009S0194W0302,S0194,wav/S0194/BAC009S0194W0302.wav,4.152,16000,1,W0302,系统 会 自动 提示 是否 进入 平板 模式,train,1,identification_test
+BAC009S0194W0416,S0194,wav/S0194/BAC009S0194W0416.wav,3.8361875,16000,1,W0416,他们 坐 在 海天 一色 的 黄色 沙滩 上,train,1,identification_test
+BAC009S0194W0133,S0194,wav/S0194/BAC009S0194W0133.wav,3.862,16000,1,W0133,这次 降息 是 今年 的 第 四 次,train,1,identification_test
+BAC009S0194W0370,S0194,wav/S0194/BAC009S0194W0370.wav,2.942875,16000,1,W0370,他 说 一切 都 以身 体 为重,train,1,identification_test
+BAC009S0194W0248,S0194,wav/S0194/BAC009S0194W0248.wav,4.283,16000,1,W0248,不 超过 当年 销售 营业 收入 百分 之 一 的 部分,train,1,verification_dev
+BAC009S0194W0143,S0194,wav/S0194/BAC009S0194W0143.wav,2.487,16000,1,W0143,这 套房 源 的 报价,train,1,verification_dev
+BAC009S0194W0256,S0194,wav/S0194/BAC009S0194W0256.wav,3.0390625,16000,1,W0256,从 电动 车 到 智能 家居,train,1,verification_dev
+BAC009S0194W0340,S0194,wav/S0194/BAC009S0194W0340.wav,3.161125,16000,1,W0340,掀起 全 世界 粉丝 的 热潮,train,1,verification_test
+BAC009S0194W0456,S0194,wav/S0194/BAC009S0194W0456.wav,4.1328125,16000,1,W0456,蒋 庆 曰 同性 婚姻 合法 化 非同 小可,train,1,verification_test
+BAC009S0194W0121,S0194,wav/S0194/BAC009S0194W0121.wav,3.03,16000,1,W0121,已经 开工 了 四百万 套,train,1,verification_test
+BAC009S0194W0323,S0194,wav/S0194/BAC009S0194W0323.wav,4.7730625,16000,1,W0323,东风 日产 宣布 正式 推出 天籁 欧 冠 版 车型,train,1,bonus_train
+BAC009S0194W0135,S0194,wav/S0194/BAC009S0194W0135.wav,3.6259375,16000,1,W0135,本 是 降低 购房 成本 的 好事,train,1,bonus_train
+BAC009S0194W0482,S0194,wav/S0194/BAC009S0194W0482.wav,4.763875,16000,1,W0482,竟 向 十三 人 集资 诈骗 了 一千二百多 万人 民 币,train,1,bonus_train
+BAC009S0194W0272,S0194,wav/S0194/BAC009S0194W0272.wav,4.861,16000,1,W0272,只有 百分 之 三 的 创业 者 拿 过 政府 的 补贴 或 基金,train,1,bonus_train
+BAC009S0194W0214,S0194,wav/S0194/BAC009S0194W0214.wav,4.8869375,16000,1,W0214,目前 医药 行业 相关 政策 大部 分 已经 落地,train,1,bonus_train
+BAC009S0194W0336,S0194,wav/S0194/BAC009S0194W0336.wav,4.037125,16000,1,W0336,那么 车辆 就 将 自动 进行 紧急 制动,train,1,bonus_train
+BAC009S0194W0480,S0194,wav/S0194/BAC009S0194W0480.wav,3.4509375,16000,1,W0480,阿姨 是 浙江 丽水 供电 局 领导,train,1,bonus_train
+BAC009S0194W0173,S0194,wav/S0194/BAC009S0194W0173.wav,5.299,16000,1,W0173,杨浦 区 的 一 幅 地块 吸引 了 上海 房地 产业 的 普遍 关注,train,1,bonus_train
+BAC009S0194W0125,S0194,wav/S0194/BAC009S0194W0125.wav,5.097,16000,1,W0125,新 链 家中 原地 产 等 多家 房产 经纪 公司 透露,train,1,bonus_val
+BAC009S0194W0179,S0194,wav/S0194/BAC009S0194W0179.wav,2.365,16000,1,W0179,上海 土地 市场,train,1,bonus_val
+BAC009S0194W0424,S0194,wav/S0194/BAC009S0194W0424.wav,2.994875,16000,1,W0424,现场 男生 直呼 太 刺激,train,1,bonus_val
+BAC009S0655W0446,S0655,wav/S0655/BAC009S0655W0446.wav,5.2739375,16000,1,W0446,一名 中年 女子 整日 赤身 裸体 在 村内 游走,train,1,enroll
+BAC009S0655W0410,S0655,wav/S0655/BAC009S0655W0410.wav,5.1340625,16000,1,W0410,他 仍 大赞 对方 心 比 人美 力挺 到底,train,1,enroll
+BAC009S0655W0381,S0655,wav/S0655/BAC009S0655W0381.wav,5.531,16000,1,W0381,乌洛 达兹 克 都 遗憾 不 敌 俄罗斯 选手 收获 银牌,train,1,enroll
+BAC009S0655W0471,S0655,wav/S0655/BAC009S0655W0471.wav,5.828125,16000,1,W0471,广州 两千 村官 上交 护照 统一 保管 防 外逃,train,1,identification_test
+BAC009S0655W0495,S0655,wav/S0655/BAC009S0655W0495.wav,4.32275,16000,1,W0495,六名 死者 遗体 已 被 送往 殡仪 馆,train,1,identification_test
+BAC009S0655W0254,S0655,wav/S0655/BAC009S0655W0254.wav,7.411,16000,1,W0254,将 三 分 之二 的 产能 用于 特斯拉 电动 车 储 能 电池 制造,train,1,identification_test
+BAC009S0655W0238,S0655,wav/S0655/BAC009S0655W0238.wav,6.817,16000,1,W0238,这 使得 因为 重组 而 产生 内幕 交易 的 可能 性 减少,train,1,identification_test
+BAC009S0655W0424,S0655,wav/S0655/BAC009S0655W0424.wav,5.4199375,16000,1,W0424,音乐 录影带 二十六 日 一 推出,train,1,verification_dev
+BAC009S0655W0425,S0655,wav/S0655/BAC009S0655W0425.wav,2.771,16000,1,W0425,立刻 掀起 话题,train,1,verification_dev
+BAC009S0655W0187,S0655,wav/S0655/BAC009S0655W0187.wav,4.618,16000,1,W0187,虽然 得到 监管 部门 的有 力 推动,train,1,verification_dev
+BAC009S0655W0196,S0655,wav/S0655/BAC009S0655W0196.wav,4.8050625,16000,1,W0196,加强 和 改进 最 低 生活 保障 工作,train,1,verification_test
+BAC009S0655W0285,S0655,wav/S0655/BAC009S0655W0285.wav,5.2111875,16000,1,W0285,价格 分别 为 三千 美元 和 三五百 美元,train,1,verification_test
+BAC009S0655W0135,S0655,wav/S0655/BAC009S0655W0135.wav,4.4469375,16000,1,W0135,在 方兴 的 绿色 科技 住宅 内,train,1,verification_test
+BAC009S0655W0342,S0655,wav/S0655/BAC009S0655W0342.wav,3.7488125,16000,1,W0342,不 服输 的 劲头 又 上来 了,train,1,bonus_train
+BAC009S0655W0171,S0655,wav/S0655/BAC009S0655W0171.wav,5.827,16000,1,W0171,人口 密集 刚 需 较大 是 其主 要 特点,train,1,bonus_train
+BAC009S0655W0123,S0655,wav/S0655/BAC009S0655W0123.wav,3.952,16000,1,W0123,提供 健康 适用 高效 使用,train,1,bonus_train
+BAC009S0655W0403,S0655,wav/S0655/BAC009S0655W0403.wav,3.6940625,16000,1,W0403,从 最近 几 届 世锦赛 的 成绩 看,train,1,bonus_train
+BAC009S0655W0183,S0655,wav/S0655/BAC009S0655W0183.wav,4.1339375,16000,1,W0183,杨 红旭 也 在 微 博 发文 表示,train,1,bonus_train
+BAC009S0655W0303,S0655,wav/S0655/BAC009S0655W0303.wav,3.639875,16000,1,W0303,带 出去 玩 不 是那 么 方便,train,1,bonus_train
+BAC009S0655W0278,S0655,wav/S0655/BAC009S0655W0278.wav,4.97,16000,1,W0278,这个 超大 号 充电 宝 的 学名 是 能源 墙,train,1,bonus_train
+BAC009S0655W0136,S0655,wav/S0655/BAC009S0655W0136.wav,4.013,16000,1,W0136,住宅 可 实现 绿色 低能 耗,train,1,bonus_train
+BAC009S0655W0376,S0655,wav/S0655/BAC009S0655W0376.wav,5.057875,16000,1,W0376,乌洛 达兹 克 出生 于 一九八五 年 八月 八 日,train,1,bonus_val
+BAC009S0655W0153,S0655,wav/S0655/BAC009S0655W0153.wav,5.343,16000,1,W0153,能够 直接 减轻 购房 者 的 购房 压力,train,1,bonus_val
+BAC009S0655W0311,S0655,wav/S0655/BAC009S0655W0311.wav,3.4409375,16000,1,W0311,而 在国 内 众多 场合 中,train,1,bonus_val
+BAC009S0040W0484,S0040,wav/S0040/BAC009S0040W0484.wav,4.1789375,16000,1,W0484,男孩 家长 与其 争吵 并发 生 冲突,train,0,enroll
+BAC009S0040W0176,S0040,wav/S0040/BAC009S0040W0176.wav,4.076,16000,1,W0176,小米 科技 创始 人雷 军 却 郑重 发,train,0,enroll
+BAC009S0040W0230,S0040,wav/S0040/BAC009S0040W0230.wav,3.051,16000,1,W0230,在 业绩 没 有 问题 的 情况 下,train,0,enroll
+BAC009S0040W0329,S0040,wav/S0040/BAC009S0040W0329.wav,3.333,16000,1,W0329,目前 大约 有 二百多 员工,train,0,identification_test
+BAC009S0040W0300,S0040,wav/S0040/BAC009S0040W0300.wav,4.5849375,16000,1,W0300,当时 我们 也 从政 府 部门 得到 了 很多 建议,train,0,identification_test
+BAC009S0040W0483,S0040,wav/S0040/BAC009S0040W0483.wav,2.875,16000,1,W0483,还 将 其书 包 扣 着 不 给,train,0,identification_test
+BAC009S0040W0244,S0040,wav/S0040/BAC009S0040W0244.wav,3.7169375,16000,1,W0244,另 一方面 是 港 交所 挖 墙脚,train,0,identification_test
+BAC009S0040W0197,S0040,wav/S0040/BAC009S0040W0197.wav,4.0759375,16000,1,W0197,分别 产出 八十八 万 吨 九十四 万 吨,train,0,verification_dev
+BAC009S0040W0198,S0040,wav/S0040/BAC009S0040W0198.wav,4.2889375,16000,1,W0198,由 平安 证券 保荐 的 广东 秋盛 资源,train,0,verification_dev
+BAC009S0040W0125,S0040,wav/S0040/BAC009S0040W0125.wav,3.563,16000,1,W0125,雷 军 除了 是 小米 科技 创始 人,train,0,verification_dev
+BAC009S0040W0193,S0040,wav/S0040/BAC009S0040W0193.wav,3.579,16000,1,W0193,二零零八 年 至 二零一二 年,train,0,verification_test
+BAC009S0040W0293,S0040,wav/S0040/BAC009S0040W0293.wav,2.9050625,16000,1,W0293,当时 遇到 了 哪些 困难,train,0,verification_test
+BAC009S0040W0344,S0040,wav/S0040/BAC009S0040W0344.wav,4.764875,16000,1,W0344,最 吸引 现场 观众 目光 的 是一 对 女子 拳手,train,0,verification_test
+BAC009S0040W0364,S0040,wav/S0040/BAC009S0040W0364.wav,3.129125,16000,1,W0364,提升 自己 的 排名 和 积分,train,0,bonus_train
+BAC009S0040W0285,S0040,wav/S0040/BAC009S0040W0285.wav,4.468,16000,1,W0285,而前 者 最终 选择 提前 了 一星 期 上映,train,0,bonus_train
+BAC009S0040W0341,S0040,wav/S0040/BAC009S0040W0341.wav,4.8109375,16000,1,W0341,但 一 上来 马 无 愁 就 占据 了 场 上 主动 性,train,0,bonus_train
+BAC009S0040W0163,S0040,wav/S0040/BAC009S0040W0163.wav,4.0,16000,1,W0163,因为 它 建立 在 了 很多 限定 条件 下,train,0,bonus_train
+BAC009S0040W0212,S0040,wav/S0040/BAC009S0040W0212.wav,2.9000625,16000,1,W0212,多家 投行 均 向 记者 称,train,0,bonus_train
+BAC009S0040W0450,S0040,wav/S0040/BAC009S0040W0450.wav,2.932125,16000,1,W0450,此 为 曲解 误读 新闻,train,0,bonus_train
+BAC009S0040W0156,S0040,wav/S0040/BAC009S0040W0156.wav,3.373,16000,1,W0156,按照 目前 的 工艺 施工 条件,train,0,bonus_train
+BAC009S0040W0476,S0040,wav/S0040/BAC009S0040W0476.wav,3.8300625,16000,1,W0476,给 公众 识别 带来 了 很大 的 困难,train,0,bonus_train
+BAC009S0040W0332,S0040,wav/S0040/BAC009S0040W0332.wav,3.178,16000,1,W0332,称 公司 停业 整顿 一 个 月,train,0,bonus_val
+BAC009S0040W0158,S0040,wav/S0040/BAC009S0040W0158.wav,3.08,16000,1,W0158,必然 墙面 开裂 空鼓,train,0,bonus_val
+BAC009S0040W0456,S0040,wav/S0040/BAC009S0040W0456.wav,3.6181875,16000,1,W0456,便衣 背 着 包 在 西站 巡查,train,0,bonus_val
+BAC009S0722W0299,S0722,wav/S0722/BAC009S0722W0299.wav,2.704125,16000,1,W0299,台 积 电 也 在 未雨 绸缪,train,0,enroll
+BAC009S0722W0217,S0722,wav/S0722/BAC009S0722W0217.wav,2.875,16000,1,W0217,艾滋 病 多久 可以 检测 出,train,0,enroll
+BAC009S0722W0257,S0722,wav/S0722/BAC009S0722W0257.wav,5.074,16000,1,W0257,不过 其 芯片 方面 的 代工 究竟 是 三星 还是 台 积 电,train,0,enroll
+BAC009S0722W0415,S0722,wav/S0722/BAC009S0722W0415.wav,3.146,16000,1,W0415,没 想到 她 紧急 剖腹 产,train,0,identification_test
+BAC009S0722W0274,S0722,wav/S0722/BAC009S0722W0274.wav,5.615,16000,1,W0274,尤其 是 在 高端 手机 市场 的 竞争 日趋 激烈,train,0,identification_test
+BAC009S0722W0232,S0722,wav/S0722/BAC009S0722W0232.wav,6.12,16000,1,W0232,鼓励 有 资质 的 商业 保险 机构 经办 新农合 业务,train,0,identification_test
+BAC009S0722W0167,S0722,wav/S0722/BAC009S0722W0167.wav,4.849,16000,1,W0167,而且 必须 通过 与 建行 合作 的 评估 机构 办理,train,0,identification_test
+BAC009S0722W0479,S0722,wav/S0722/BAC009S0722W0479.wav,6.697,16000,1,W0479,北京 市 东城 区 人民 检察 院 对 庞 国钦 以 涉嫌 危险 驾驶 罪,train,0,verification_dev
+BAC009S0722W0367,S0722,wav/S0722/BAC009S0722W0367.wav,7.291,16000,1,W0367,我们 的 外教 汤姆 阿什利 是 北京 奥运 会男 子帆 板 冠军,train,0,verification_dev
+BAC009S0722W0248,S0722,wav/S0722/BAC009S0722W0248.wav,3.0820625,16000,1,W0248,新农合 报销 药品,train,0,verification_dev
+BAC009S0722W0427,S0722,wav/S0722/BAC009S0722W0427.wav,3.5329375,16000,1,W0427,搜狐 娱乐 讯 六月 五 日 消息,train,0,verification_test
+BAC009S0722W0405,S0722,wav/S0722/BAC009S0722W0405.wav,2.7580625,16000,1,W0405,将 正式 回归 碟 中 谍 五,train,0,verification_test
+BAC009S0722W0130,S0722,wav/S0722/BAC009S0722W0130.wav,4.2539375,16000,1,W0130,对 购房 者 抵押 的 房屋 价值 进行 评估,train,0,verification_test
+BAC009S0722W0159,S0722,wav/S0722/BAC009S0722W0159.wav,5.3090625,16000,1,W0159,要求 严格 遵守 反 垄断 法 等 法律 法规,train,0,bonus_train
+BAC009S0722W0421,S0722,wav/S0722/BAC009S0722W0421.wav,2.1811875,16000,1,W0421,你 那边 还好 吗,train,0,bonus_train
+BAC009S0722W0183,S0722,wav/S0722/BAC009S0722W0183.wav,5.191,16000,1,W0183,商业 银行 应当 承担 二手 房 评估 费用,train,0,bonus_train
+BAC009S0722W0400,S0722,wav/S0722/BAC009S0722W0400.wav,3.244875,16000,1,W0400,以前 我们 有 时候 去 海外 比赛,train,0,bonus_train
+BAC009S0722W0307,S0722,wav/S0722/BAC009S0722W0307.wav,5.3891875,16000,1,W0307,未见 原为 中电投 副总 经理 李 小 琳 的 名字,train,0,bonus_train
+BAC009S0722W0459,S0722,wav/S0722/BAC009S0722W0459.wav,5.0920625,16000,1,W0459,庞 国钦 在东 城 法院 出庭 受审 昨天 上午,train,0,bonus_train
+BAC009S0722W0273,S0722,wav/S0722/BAC009S0722W0273.wav,5.4439375,16000,1,W0273,不过 随着 三星 和 苹果 在 移动 互联 网 市场 的 争夺 加剧,train,0,bonus_train
+BAC009S0722W0449,S0722,wav/S0722/BAC009S0722W0449.wav,3.776875,16000,1,W0449,一审 被 判 拘役 三 个 月,train,0,bonus_train
+BAC009S0722W0300,S0722,wav/S0722/BAC009S0722W0300.wav,4.505875,16000,1,W0300,台 积 电 正在 扩容 自己 的 十六 纳米 晶圆 厂,train,0,bonus_val
+BAC009S0722W0260,S0722,wav/S0722/BAC009S0722W0260.wav,6.3359375,16000,1,W0260,那 就 是 三星 电子 获得 了 苹果 手表 的 所有 芯片 订单,train,0,bonus_val
+BAC009S0722W0322,S0722,wav/S0722/BAC009S0722W0322.wav,6.1550625,16000,1,W0322,蔚 来 汽车 将 主要 致力 于 电动 汽车 的 研发 和 销售,train,0,bonus_val
+BAC009S0731W0210,S0731,wav/S0731/BAC009S0731W0210.wav,4.553,16000,1,W0210,提高 发 审 透明度 首先 可以 提升 发 审 效率,dev,0,enroll
+BAC009S0731W0135,S0731,wav/S0731/BAC009S0731W0135.wav,5.414,16000,1,W0135,自去 年底 在 港 交所 成功 上市 之后,dev,0,enroll
+BAC009S0731W0351,S0731,wav/S0731/BAC009S0731W0351.wav,5.785875,16000,1,W0351,他 忽然 发现 有 一名 参赛 者 因为 心脏 骤停 昏倒 在 路 上,dev,0,enroll
+BAC009S0731W0383,S0731,wav/S0731/BAC009S0731W0383.wav,3.182875,16000,1,W0383,这次 的 成绩 和平 时 相比 如何,dev,0,identification_test
+BAC009S0731W0478,S0731,wav/S0731/BAC009S0731W0478.wav,2.8481875,16000,1,W0478,我们 既然 有勇 气 开通,dev,0,identification_test
+BAC009S0731W0163,S0731,wav/S0731/BAC009S0731W0163.wav,3.001,16000,1,W0163,金融 类 应用 软件 开发,dev,0,identification_test
+BAC009S0731W0434,S0731,wav/S0731/BAC009S0731W0434.wav,3.954125,16000,1,W0434,保证 账户 盈利 不 减 的 美女 就 更 少 了,dev,0,identification_test
+BAC009S0731W0317,S0731,wav/S0731/BAC009S0731W0317.wav,5.287,16000,1,W0317,全球 很多 的 顶级 的 基金 对冲 基金 等 机构,dev,0,verification_dev
+BAC009S0731W0161,S0731,wav/S0731/BAC009S0731W0161.wav,6.448,16000,1,W0161,非公 开发 行 的 股权 投资 基金 等 各类 交易 相关 配套,dev,0,verification_dev
+BAC009S0731W0179,S0731,wav/S0731/BAC009S0731W0179.wav,5.84,16000,1,W0179,地产 服务 商 激烈 角逐 除了 开发 商 以外,dev,0,verification_dev
+BAC009S0731W0228,S0731,wav/S0731/BAC009S0731W0228.wav,5.7320625,16000,1,W0228,多位 官员 今年 以来 曾 在 不 同 的 场合 向 市场 吹风,dev,0,verification_test
+BAC009S0731W0472,S0731,wav/S0731/BAC009S0731W0472.wav,5.722875,16000,1,W0472,对 涉案 上网 服务 营业 场所 立案 调查 处理,dev,0,verification_test
+BAC009S0731W0494,S0731,wav/S0731/BAC009S0731W0494.wav,5.3508125,16000,1,W0494,文化 部 发布 了 近期 排查 内容 违规 文化 产品 的 结果,dev,0,verification_test
+BAC009S0731W0301,S0731,wav/S0731/BAC009S0731W0301.wav,3.2469375,16000,1,W0301,但 不管 过程 和 结果 如何,dev,0,bonus_train
+BAC009S0731W0425,S0731,wav/S0731/BAC009S0731W0425.wav,2.5031875,16000,1,W0425,不 是 拔 隐形 眼镜,dev,0,bonus_train
+BAC009S0731W0200,S0731,wav/S0731/BAC009S0731W0200.wav,4.3890625,16000,1,W0200,同时 分别 向 社会 公示 各自 的 审核 流程,dev,0,bonus_train
+BAC009S0731W0190,S0731,wav/S0731/BAC009S0731W0190.wav,4.353,16000,1,W0190,而 在 最 为 关键 的 发行 审核 环节,dev,0,bonus_train
+BAC009S0731W0212,S0731,wav/S0731/BAC009S0731W0212.wav,3.183,16000,1,W0212,一 位 证监 人士 也 向 记者 坦言,dev,0,bonus_train
+BAC009S0731W0460,S0731,wav/S0731/BAC009S0731W0460.wav,6.928,16000,1,W0460,整容 蛇精 女 对骂 女 嘉宾 宁 被 扎 死 不 愿 丑 死,dev,0,bonus_train
+BAC009S0731W0211,S0731,wav/S0731/BAC009S0731W0211.wav,4.6439375,16000,1,W0211,其次 更 是 对 发行 人诚 信 的 市场 化 约束,dev,0,bonus_train
+BAC009S0731W0132,S0731,wav/S0731/BAC009S0731W0132.wav,7.98,16000,1,W0132,绿地 金 服 将 围绕 房地 产 全产 业 链 投融 资 市场,dev,0,bonus_train
+BAC009S0731W0167,S0731,wav/S0731/BAC009S0731W0167.wav,6.375,16000,1,W0167,向下 整合 整个 集团 业务 板块 与 互联 网 的 对接,dev,0,bonus_val
+BAC009S0731W0150,S0731,wav/S0731/BAC009S0731W0150.wav,4.307,16000,1,W0150,通过 在 快 钱 平台 上 发售,dev,0,bonus_val
+BAC009S0731W0262,S0731,wav/S0731/BAC009S0731W0262.wav,3.4099375,16000,1,W0262,能够 第 一时间 让 救生 人员 找到 你,dev,0,bonus_val
+BAC009S0748W0278,S0748,wav/S0748/BAC009S0748W0278.wav,4.181,16000,1,W0278,最 早 将 在明 年 夏天 再次 试飞,dev,1,enroll
+BAC009S0748W0377,S0748,wav/S0748/BAC009S0748W0377.wav,4.1989375,16000,1,W0377,南师 大体 科院 相关 负责 人 表示,dev,1,enroll
+BAC009S0748W0465,S0748,wav/S0748/BAC009S0748W0465.wav,3.255875,16000,1,W0465,一零 多年 前 买 过来 的,dev,1,enroll
+BAC009S0748W0421,S0748,wav/S0748/BAC009S0748W0421.wav,2.5031875,16000,1,W0421,据 知情 人 透露,dev,1,identification_test
+BAC009S0748W0164,S0748,wav/S0748/BAC009S0748W0164.wav,3.4,16000,1,W0164,而成 了 我们 的 后发 优势,dev,1,identification_test
+BAC009S0748W0266,S0748,wav/S0748/BAC009S0748W0266.wav,3.709,16000,1,W0266,将 替代 坠毁 的 第 一艘 飞船,dev,1,identification_test
+BAC009S0748W0327,S0748,wav/S0748/BAC009S0748W0327.wav,7.8620625,16000,1,W0327,其 在 锂 离子 电池 市场 份额 占据 了 百分 之 三十八,dev,1,identification_test
+BAC009S0748W0396,S0748,wav/S0748/BAC009S0748W0396.wav,5.0969375,16000,1,W0396,未 满 二十 岁 的 年轻 主攻 张 常宁 发挥 出色,dev,1,verification_dev
+BAC009S0748W0124,S0748,wav/S0748/BAC009S0748W0124.wav,4.526,16000,1,W0124,京华 时报 讯 记者 潘 秀林 昨天,dev,1,verification_dev
+BAC009S0748W0276,S0748,wav/S0748/BAC009S0748W0276.wav,5.7769375,16000,1,W0276,大约 有 二十 名 乘客 打消 搭乘 飞船 的 念头,dev,1,verification_dev
+BAC009S0748W0316,S0748,wav/S0748/BAC009S0748W0316.wav,3.0750625,16000,1,W0316,第 一 财经 日报 获悉,dev,1,verification_test
+BAC009S0748W0237,S0748,wav/S0748/BAC009S0748W0237.wav,3.3830625,16000,1,W0237,于 去年 十一 月 颁发,dev,1,verification_test
+BAC009S0748W0162,S0748,wav/S0748/BAC009S0748W0162.wav,3.002,16000,1,W0162,恰恰 是 这种 慢 发展,dev,1,verification_test
+BAC009S0748W0221,S0748,wav/S0748/BAC009S0748W0221.wav,3.6369375,16000,1,W0221,申请 开展 基金 管理 业务 的,dev,1,bonus_train
+BAC009S0748W0132,S0748,wav/S0748/BAC009S0748W0132.wav,6.113,16000,1,W0132,其次 是 京 投 银泰 琨 御 府 和 秦 禾 北京 院子,dev,1,bonus_train
+BAC009S0748W0292,S0748,wav/S0748/BAC009S0748W0292.wav,4.416,16000,1,W0292,研发 代号 为 泰坦 的 电动 汽车 项目,dev,1,bonus_train
+BAC009S0748W0486,S0748,wav/S0748/BAC009S0748W0486.wav,7.6181875,16000,1,W0486,昆明 老太 景点 摘 果 不 惜 爬 挖机 绿化 将 避免 种果 树,dev,1,bonus_train
+BAC009S0748W0354,S0748,wav/S0748/BAC009S0748W0354.wav,3.808125,16000,1,W0354,南京 姑娘 张 常宁 顶替,dev,1,bonus_train
+BAC009S0748W0361,S0748,wav/S0748/BAC009S0748W0361.wav,7.291,16000,1,W0361,儿子 张 晨 一 度 是 江苏 男排 和中 国男 排 的 主力 主攻,dev,1,bonus_train
+BAC009S0748W0171,S0748,wav/S0748/BAC009S0748W0171.wav,3.9000625,16000,1,W0171,当时 有 很多 大佬 大腕 不 理解,dev,1,bonus_train
+BAC009S0748W0131,S0748,wav/S0748/BAC009S0748W0131.wav,2.494,16000,1,W0131,均价 八万 元,dev,1,bonus_train
+BAC009S0748W0437,S0748,wav/S0748/BAC009S0748W0437.wav,4.661125,16000,1,W0437,昆明 信息 港 讯 记者 张 钊,dev,1,bonus_val
+BAC009S0748W0428,S0748,wav/S0748/BAC009S0748W0428.wav,4.1171875,16000,1,W0428,中新 网 六月 五 日电 此前,dev,1,bonus_val
+BAC009S0748W0483,S0748,wav/S0748/BAC009S0748W0483.wav,4.1901875,16000,1,W0483,图片 来自 网络 据 中新 网 报道,dev,1,bonus_val
+BAC009S0114W0439,S0114,wav/S0114/BAC009S0114W0439.wav,6.129875,16000,1,W0439,业 委 会 获 法人 资格 两年 行使 和 开发 商 打 官司 特权,train,0,unknown_test
+BAC009S0114W0379,S0114,wav/S0114/BAC009S0114W0379.wav,4.410875,16000,1,W0379,但 在 具体 执行 政策 上 不 够 透明,train,0,unknown_test
+BAC009S0114W0142,S0114,wav/S0114/BAC009S0114W0142.wav,3.963,16000,1,W0142,未来 房价 走势 将 进一步 分化,train,0,unknown_test
+BAC009S0114W0388,S0114,wav/S0114/BAC009S0114W0388.wav,5.021,16000,1,W0388,在 中国 甚至 世界 各国 的 价值 也 将 大 打折 扣,train,0,unknown_test
+BAC009S0105W0228,S0105,wav/S0105/BAC009S0105W0228.wav,4.8370625,16000,1,W0228,对于 大 股东 持股 数量 接近 的,train,0,unknown_test
+BAC009S0105W0482,S0105,wav/S0105/BAC009S0105W0482.wav,7.472875,16000,1,W0482,本报 北京 九月 九 日电 记者 朱 娟娟 九 日 上午,train,0,unknown_test
+BAC009S0105W0420,S0105,wav/S0105/BAC009S0105W0420.wav,6.2580625,16000,1,W0420,到场 欣赏 的 吴 克群 在 脸 上 抱怨 迟到 半 小时,train,0,unknown_test
+BAC009S0105W0169,S0105,wav/S0105/BAC009S0105W0169.wav,6.911,16000,1,W0169,在 存贷 款 利率 及 公积金 贷款 利率 全面 下调 后,train,0,unknown_test
+BAC009S0758W0273,S0758,wav/S0758/BAC009S0758W0273.wav,2.9460625,16000,1,W0273,在此 之 前 的 十月 二十 日,dev,1,unknown_test
+BAC009S0758W0240,S0758,wav/S0758/BAC009S0758W0240.wav,6.229,16000,1,W0240,随之 产生 的 各类 生产 生活 类 废弃 物 也 将 快速 增加,dev,1,unknown_test
+BAC009S0758W0281,S0758,wav/S0758/BAC009S0758W0281.wav,3.3199375,16000,1,W0281,这 一 计划 在 被 媒体 披露 后,dev,1,unknown_test
+BAC009S0758W0357,S0758,wav/S0758/BAC009S0758W0357.wav,2.8090625,16000,1,W0357,也 从中 发现 很多 问题,dev,1,unknown_test
+BAC009S0049W0425,S0049,wav/S0049/BAC009S0049W0425.wav,2.0839375,16000,1,W0425,又一 对 姐弟 恋,train,0,unknown_test
+BAC009S0049W0439,S0049,wav/S0049/BAC009S0049W0439.wav,4.282,16000,1,W0439,志愿 者 称 警方 明确 说 是 拘传,train,0,unknown_test
+BAC009S0049W0130,S0049,wav/S0049/BAC009S0049W0130.wav,4.458,16000,1,W0130,已 向中 国银 行市 场 交易 商 协会 正式 注册,train,0,unknown_test
+BAC009S0049W0489,S0049,wav/S0049/BAC009S0049W0489.wav,4.134,16000,1,W0489,笔者 通过 查阅 档案 和 走访 多名 古稀 老人,train,0,unknown_test
